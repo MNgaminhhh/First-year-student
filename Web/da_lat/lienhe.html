@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="text/x-icon" href="201623.png">
+		<title>Đà Lạt</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style111.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;500&family=Space+Grotesk:wght@300&family=Tourney:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="logo">
+                <a href="#"><img src="logo3.png" alt="logo"></a>
+            </div>
+        <div id="menu-top">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="trangchu.html" title="TRANG CHỦ" ><i class="fa fa-home"></i> TRANG CHỦ</a></li>
+                    <li><a href="diadiemthamquan.html" title="ĐỊA ĐIỂM THAM QUAN"><i class='fas fa-map-marked-alt'></i> ĐỊA ĐIỂM THAM QUAN</a></li>
+                    <li><a href="diadiemanchoi.html" title="ĐỊA ĐIỂM ĂN CHƠI"><i class='fas fa-utensils'></i> ĐỊA ĐIỂM ĂN CHƠI</a></li>
+                    <li><a href="lienhe.html" title="LIÊN HỆ" class="active"><i class='far fa-address-book'></i> LIÊN HỆ</a></li>
+                </ul>
+            </div>
+
+            <div class="form-search">
+                <input type="text" class="keyword">
+                <button type="submit" class="btn-search" onclick="dict()">
+                  <span class="fa fa-search"></span>
+                </button>
+            </div>
+        </div>
+
+		<div class="contact-s">
+			<div class="contact_Info">
+				<div class="place">
+              <a href="https://www.google.com/maps/place/Tp.+Đà+Lạt,+Lâm+Đồng,+Việt+Nam/@11.9040702,108.3806816,12z/data=!3m1!4b1!4m5!3m4!1s0x317112fef20988b1:0xad5f228b672bf930!8m2!3d11.9404192!4d108.4583132?hl=vi-VN" target="_blank"><span class="fas fa-map-marker-alt"> </span></a>
+              <span class="text">Địa Chỉ: Thành Phố Đà Lạt</span>
+            </div>
+            <div class="phone" onclick="alert('Mãi iu các bạn')">
+              <span class="fas fa-phone-alt"> </span>
+              <span class="text">SĐT: +12345678910</span>
+            </div>
+            <div class="email">
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><span class="fas fa-envelope"> </span></a>
+              <span class="text">AVENGERSgroup3@gmail.com</span>
+            </div>
+		</div>
+		<div class="contact_Form">
+			<h2>Liên hệ </h2>
+			<form class="contact" action="https://formspree.io/f/xzbozbvz" method="POST" target="_blank">				
+				<input type="text" name="FullName" class="text-box" placeholder="Họ và Tên" required>
+				<input type="email" name="email" class="text-box" placeholder="Email/Gmail" required>
+				<textarea name="message" class="text-box" rows="5" placeholder="Nội dung" required ></textarea>
+				<input type="submit" name="submit" class="send-btn" value="Gửi">
+			</form>
+		</div>
+		</div>
+
+		<footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>VỀ CHÚNG TÔI</h2>
+          <div class="content">
+             <div class="logo2">
+               <a href="trangchu.html"><img src="logo3.png" alt="logo"></a>
+             </div>
+            <p>là nhóm 3 của lớp 21110CL2 trường Đại Học Sư Phạm Thành Phố Hồ Chí Minh. Trang web này được chúng tôi tạo ra nhằm giúp các bạn có thể tìm kiếm được những địa điểm du lịch, vui chơi, ăn uống khi đên với thành phố Đà Lạt-thành phố được mệnh danh là "Thành phố ngàn hoa". Hi vọng những thông tin này sẽ hữu ích đến bạn !</p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></i></a>
+              <a href="#"><span class="fab fa-twitter"></span></i></a>
+              <a href="#"><span class="fab fa-instagram"></span></i></a>
+              <a href="#"><span class="fab fa-youtube"></span></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="center box">
+         <h2>ĐỊA CHỈ</h2>
+          <div class="content">
+            <div class="place">
+              <a href="https://www.google.com/maps/place/Tp.+Đà+Lạt,+Lâm+Đồng,+Việt+Nam/@11.9040702,108.3806816,12z/data=!3m1!4b1!4m5!3m4!1s0x317112fef20988b1:0xad5f228b672bf930!8m2!3d11.9404192!4d108.4583132?hl=vi-VN" target="_blank"><span class="fas fa-map-marker-alt"> </span></a>
+              <span class="text">Thành Phố Đà Lạt</span>
+            </div>
+            <div class="phone" onclick="alert('Mãi iu các bạn')">
+              <span class="fas fa-phone-alt"> </span>
+              <span class="text">+12345678910</span>
+            </div>
+            <div class="email">
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><span class="fas fa-envelope"> </span></a>
+              <span class="text">AVENGERSgroup3@gmail.com</span>
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="right box">
+          <h2>LIÊN HỆ</h2>
+          <div class="content">
+            <form action="https://formspree.io/f/xzbozbvz" method="POST" target="_blank">
+              <div class="name">
+                <div class="text">Họ và Tên:*</div>
+                <input type="text" name="FullName" placeholder="Nguyễn Minh">
+              </div>
+              <div class="email">
+                <div class="text2">Email/Gmail:*</div>
+                <input type="email" name="email" placeholder="abc@gmail.com">
+              </div>
+              <div class="msg">
+                <div class="text2">Phản hồi:*</div>
+                <textarea name="message"></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Gửi</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </footer>
+
+	</body>
+</html>

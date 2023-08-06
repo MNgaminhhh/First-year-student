@@ -1,0 +1,387 @@
+body{
+	font-family: Tahoma;
+	font-size: 14px;
+	width:  1320px;
+	margin: 0px  auto;
+	padding:0;
+	box-sizing: border-box;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background:url(ngan.jpg) ;
+	background-size: cover;
+}
+
+.logo img{
+	width: 100px;
+	float: left;
+	padding-left: 36px;
+	padding-right: 40px;
+	padding-top: 3px;
+
+}
+
+#menu-top{
+	width: 100%;
+	background: #0d1128;
+	height: 50px;
+
+}
+#menu-top .container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+#menu-top .container ul.menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 700px;
+
+}
+
+#menu-top .container ul.menu li{
+	display: inline-block;
+}
+
+#menu-top .container ul.menu li a{
+	text-decoration: none;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	color: #FFF;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#menu-top .container ul.menu li a:hover{
+	background: rgba(0,0,0,0.5);
+	border-radius: 6px;
+	color: #FF0000;
+}
+
+#menu-top .container ul.menu li a.active{
+	font-weight: bold;
+	color: #DD0000;
+	background: rgba(0,0,0,1);
+	border-radius: 6px;
+}
+
+#menu-top .form-search{
+	width: 350px;
+	float: right;
+	background: #0d1128;
+}
+
+#menu-top .form-search .keyword{
+	width: 85%;
+	font-size: 16px;
+	border: 1px solid #999;
+	height: 33px;
+	margin-top: 6px;
+	text-indent: 14px;
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 0.7);
+	background: transparent;
+}
+
+.form-search .btn-search{
+	border: none;
+	padding-top: 15px;
+	right: 40px;
+	background: transparent;
+	position: relative;
+}
+
+.btn-search .fa{
+	font-size: 16px;
+  	cursor: pointer;
+  	color: #FFF;
+}
+
+
+.contact-s
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact_Info
+{
+	margin: 30px 50px;
+	color:black;
+	max-width: 500px;
+	line-height: 65px;
+	padding-left:50px;
+	font-size: 18px;
+}
+.contact_Info i
+{
+	margin-right: 20px;
+	font-size: 25px;
+}
+.contact_Form
+{
+	margin: 30px 50px;
+	max-width: 700px;
+	margin-right: 50px;
+}
+.contact_Info, .contact_Form
+{
+	flex:1;
+}
+.contact_Form h2{
+	color:black;
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.contact_Form .text-box
+{
+	background: #fff;
+	color: black;
+	border:none;
+	width: 100%;
+	height: 50px;
+	padding: 12px;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+.contact_Form .text-box:first-child
+{
+	margin-right: 15px;
+}
+.contact_Form textarea 
+{
+	background: #fff;
+	color: black;
+	border:none;
+	width: 100%;
+	padding: 12px;
+	min-width: 200px;
+	max-height: 400px;
+	resize: vertical;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+.contact_Form .send-btn
+{
+	float:right;
+	background: brown;
+	color:black;
+	border: none;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+.contact_Form .send-btn:hover
+{
+	background: burlywood;
+}
+.contact_Form h2{
+	font-size: 30px;
+}
+
+.contact_Info .fas{
+	font-size: 20px;
+  	background: #FFF;
+  	height: 45px;
+  	width: 45px;
+  	line-height: 45px;
+  	text-align: center;
+  	border-radius: 50%;
+  	transition: 0.3s;
+  	cursor: pointer;
+  	color: black;
+}
+
+.contact_Info .fas:hover{
+  	background: red;
+}
+
+footer{
+	width: 1320px;
+	min-height: 250px;
+	clear: left;
+	line-height: 24px;
+	font-family: 'Hepta Slab', serif;
+	font-weight: 300;
+	color:  #FFF;
+	width: 1320px;
+  	background: #000022;
+}
+
+.main-content{
+	display: flex;
+}
+
+.main-content .box{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.box h2{
+	font-size: 28px;
+  	font-weight: 500;
+  	text-transform: uppercase;
+  	padding-bottom: 20px;
+}
+
+.box .content{
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	font-size: 18px;
+}
+
+.box .content:before{
+ 	position: absolute;
+  	content: '';
+  	top: -10px;
+  	height: 2px;
+  	width: 80%;
+ 	background: #1a1a1a;
+}
+
+.box .content:after{
+ 	position: absolute;
+  	content: '';
+  	height: 2px;
+ 	width: 20%;
+  	background: #f12020;
+  	top: -10px;
+}
+
+
+.left .content .logo2{
+	width: 145px;
+	float: left;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+
+.left .content p{
+  	text-align: justify;
+  	padding-top: 10px;
+}
+
+.left .content .social{
+  	margin: 10px 10px 10px 65px;
+}
+
+.left .content .social a{
+  	padding: 0 7px;
+}
+
+.left .content .social a span{
+  	height: 40px;
+  	width: 40px;
+  	background: #1a1a1a;
+  	line-height: 40px;
+  	text-align: center;
+  	font-size: 16px;
+  	border-radius: 6px;
+}
+
+.left .content .social a span:hover{
+  	background: #f12020;
+}
+
+.right form .text{
+	padding-top: 10px;
+ 	font-size: 19px;
+  	margin-bottom: 2px;
+  	color: #FFF;
+}
+
+.right form .text2{
+	padding-top: 10px;
+ 	font-size: 16px;
+  	margin-bottom: 2px;
+  	color: #FFF;
+}
+
+.right form .msg{
+  	margin-top: 10px;
+}
+.right form input, .right form textarea{
+  	width: 90%;
+  	font-size: 16px;
+  	background: #111111;
+  	border: 1px solid #222222;
+  	border-radius: 6px;
+  	color: #FFF;
+}	
+
+.right form input{
+  	height: 35px;
+}
+
+.right form .btn{
+  	margin-top: 10px;
+}
+
+.right form .btn button{
+  	height: 40px;
+  	width: 91%;
+  	border: none;
+  	outline: none;
+  	background: #111111;
+  	font-size: 18px;
+  	font-weight: bolder;
+  	color: #3333CC;
+  	cursor: pointer;
+  	border-radius: 6px;
+}
+
+.right form .btn button:hover{
+  background: red;
+}
+
+.center .content .fas{
+  	font-size: 20px;
+  	background: #1a1a1a;
+  	height: 45px;
+  	width: 45px;
+  	line-height: 45px;
+  	text-align: center;
+  	border-radius: 50%;
+  	transition: 0.3s;
+  	cursor: pointer;
+  	color: #FFF;
+}
+
+.center .content .fas:hover{
+  	background: #f12020;
+}
+
+
+.center .content .text{
+  	font-size: 18px;
+  	padding-left: 10px;
+  	font-weight: 300;
+}
+
+.center .content .phone{
+  	margin: 23px 0;
+  	padding-left: 17px;
+}
+
+.center .content .place{
+  	padding-left: 17px;
+  	padding-top: 25px;
+}
+
+.center .content .email{
+  	padding-left: 17px;
+}
+

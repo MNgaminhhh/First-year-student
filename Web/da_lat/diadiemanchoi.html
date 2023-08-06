@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="text/x-icon" href="201623.png">
+        <title>Đà Lạt</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;500&family=Space+Grotesk:wght@300&family=Tourney:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="logo">
+                <a href="trangchu.html"><img src="logo3.png" alt="logo"></a>
+            </div>
+        <div id="menu-top">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="trangchu.html" title="TRANG CHỦ"><i class="fa fa-home"></i> TRANG CHỦ</a></li>
+                    <li><a href="diadiemthamquan.html" title="ĐỊA ĐIỂM THAM QUAN"><i class='fas fa-map-marked-alt'></i> ĐỊA ĐIỂM THAM QUAN</a></li>
+                    <li><a href="diadiemanchoi.html" title="ĐỊA ĐIỂM ĂN CHƠI" class="active"><i class='fas fa-utensils'></i> ĐỊA ĐIỂM ĂN CHƠI</a></li>
+                    <li><a href="lienhe.html" title="LIÊN HỆ"><i class='far fa-address-book'></i> LIÊN HỆ</a></li>
+                </ul>
+            </div>
+
+            <div class="form-search">
+                <input type="text" class="keyword">
+                <button type="submit" class="btn-search" onclick="dict()">
+                  <span class="fa fa-search"></span>
+                </button>
+            </div>
+        </div>
+    <script >
+        function dict(){
+          var x=document.querySelector(".keyword").value;
+          const url="https://www.google.com/search?q=";
+          var url1=url+x;
+          var win=window.open(url1, '_blank');
+          win.focus;
+        }
+      </script>
+                <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2,
+                $NoDrag: true
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1320;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+        .jssora061:hover {opacity:.8;}
+        .jssora061.jssora061dn {opacity:.5;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:530px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:530px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/045.jpg" />
+                <div u="thumb">XIN
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/043.jpg" />
+                <div u="thumb">CHÀO
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/046.jpg" />
+                <div u="thumb">MỌI
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/044.jpg" />
+                <div u="thumb">NGƯỜI
+                </div>
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+        <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:1300px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+            <div u="slides">
+                <div u="prototype" style="position:absolute;top:0;left:0;width:1300px;height:50px;">
+                    <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight: bold;line-height:50px;font-size:20px;padding-left: 20px;box-sizing:border-box;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+        <div id="main">
+            <div id="left">
+                <h2> Quán cafe</h2>
+                <hr>
+                <h3 id="11">1. Pura Vida cafe</h3>
+                <div class="hello">
+                Với không gian cực kì chill nằm giữa thung lũng bao quanh là núi đồi thì đây là một quán cực kỳ thích hợp với những người thích không gian yên tĩnh. Tại đây bạn có thể hòa mình vào thiên nhiên ngắm hoàng hôn rực rỡ từ từ lặn xuống chân đồi. Ngoài ra đây là đây là một địa điểm mà bạn có thể checkin vào những cây hồng khi mùa tới. Ngoài view đẹp mê mẩn thì Pura Vida cũng được khen ngợi với phong cách "chill out" coffee: âm nhạc được lựa chọn kĩ, có thêm đồ nhắm và beer để mọi người thỏa sức lựa chọn theo cảm xúc. Nhân viên ở đây rất nhiệt tình và vui vẻ, nếu một ngày bạn đắn đo không biết chọn gì cho mình thì cứ thoải mái nhờ các bạn tư vấn giúp nhé!</div>
+                <img src="img/047.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> Hẻm 108 Hùng Vương, Phường 11, Thành phố Đà Lạt, Lâm Đồng.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 7:00 - 19:00.</li>
+                </ul>
+                <h3 id="12">2. Thung Lũng Đèn Coffee</h3>
+                <div class="hello">
+                Quán được trang trí với nhiều cây xanh và chậu cảnh xinh xắn. Cửa được làm hầu như bằng kính nên khi ngồi trong nhà cũng có thể ngắm trọn cảnh đẹp đấy nhé! Nếu bạn thích cảm giác được hòa mình với thiên nhiên cũng có thể chọn cho mình những vị trí bên ngoài thoáng mát hơn như: ban công, ghế ngoài trời…Nếu ghé quán vào buổi tối thì còn tuyệt vời hơn nữa, vì đêm đến các bạn sẽ có cơ hội chiêm ngưỡng cả một thung lũng ánh sáng Trại Mát lên đèn đẹp lung linh, rực rỡ. Ánh đèn vàng như dải ngân hà xa xa nhất định sẽ tạo thành một background bao ảo, bao đẹp cho các bạn bắn hình thỏa thích đó nha! Ngoài cafe, Thung Lũng Đèn Coffee còn phục vụ thêm các loại nước giải khát, đặc biệt là những món uống làm từ dâu tây được hái ngay tại vườn nhà. Buổi sáng sẽ có thêm điểm tâm như bò bít tết, bánh mì ốp la, mì Quảng và đặc biệt là món bún bò Huế mang đậm đà hương vị đặc trưng, tha hồ cho khách lựa chọn. Bạn cũng có thể chọn mua cho mình những món đặc sản phố núi dành tặng người thân khi đến đây đó!</div>
+                <img src="img/050.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> Dốc số 7, Quốc lộ 20, Trại Mát, TP. Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 6:00 - 21:30.</li>
+                </ul>
+                <h3 id="13">3. Coffee Lưng Chừng</h3>
+                <div class="hello">
+                Không gian quán tuy hơi nhỏ nhưng bên trong mọi góc căn nhà nhỏ đều mang cảm giác hoài niệm và xung quanh được bao trùm bởi rừng thông đồi núi xanh mát. Ở đây còn nuôi những chú chó vô cùng dễ thương và luôn thừa những địa điểm đẹp để bạn ngồi hàng giờ, ngắm nhìn bức tranh thiên nhiên dịu dàng mà tạo hóa ban tặng cho nơi này. Điểm cộng tiếp theo dành cho menu đồ uống của Lưng Chừng Coffee. Quán hiện chỉ kinh doanh cà phê nên menu đồ uống rất được chú trọng. Ở đây có đủ các món uống như trà, cà phê, sinh tố, nước ép,… đều có đủ. Còn gì tuyệt hơn là thưởng thức món uống yêu thích; thưởng ngoạn ngắm cảnh rồi hàn huyên cùng người thương, vô cùng thú vị. Một lưu ý nhỏ là đường xuống quán khá khó đi, những con dốc cao cao đòi hỏi các bạn nữ phải cứng tay lái nhé!</div>
+                <img src="img/053.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> Hẻm 31/8 ,Đường ¾ Phường 3, Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 8:00 - 18:30.</li>
+                </ul>
+                <h3 id="14">4. Lululola Coffee</h3>
+                <div class="hello">
+                Ai mà là dân chơi hệ Đà Lạt đích thực thì không thể không thể Lululola coffee - quán cafe theo phong cách vintage ngoài trời cực đỉnh. Tọa lạc tại đ đường 3/4, Đồi Cà Ri Dê đèo Prenn. Quán nằm trên vị trí cao cho bạn ngắm trọn khung cảnh thành phố. Là một quán cafe acoustic cực chill. Lululola cafe chắc chắn sẽ làm bạn mê mẩn.Nhìn chung quán mang phong cách vintage gần gũi với thiên nhiên. Bất cứ ai đến với Lululola cũng bị thu hút bởi không gian thoáng đãng bình yên của nó.Trong năm gần đây, quán thu hút đông đảo các bạn trẻ bởi các đêm nhạc accoustic với sự trình diễn của các nghệ sĩ nổi tiếng. Không chỉ có nhạc hay, không gian của quán cũng khiến các bạn mê mệt bởi view 360 độ cực kỳ xịn. Quán cũng là nơi bắt trọn hoàng hôn lãng mạn tại Đà Lạt. Có cảnh đẹp, nhạt hay nước ngon thì bạn còn chần chừ gì mà không đến ngay Lululola Coffee. Quán Lululola Coffee có một thực đơn đa dạng với các loại cà phê, nước ép, sinh tố, rượu vang, trà. Ngoài ra, bạn còn có thể thưởng thức các món salad, bánh ngọt, mì ý hay tổ chức tiệc nướng BBQ tại không gian riêng của quán.</div>
+                <img src="img/055.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> Đồi Cà Ri Dê, Đường 3 tháng 4, Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 8:00 - 22:00.</li>
+                </ul>
+                <h3 id="15">5. Tiệm Cà Phê Nhà Bên Suối</h3>
+                <div class="hello">
+                Tuy đường đi đến đây tương đối khó tìm nhưng bạn chỉ cần bình tĩnh đi theo hướng dẫn là có thể đến nơi. Sau một hành trình vòng vèo trên những cung đường và con hẻm, bạn sẽ thấy một tiệm cà phê xinh hiện ra với vẻ đẹp mộc mạc, đơn sơ mà thật tình tự. Nhà Bên Suối “sinh sau đẻ muộn” so với rất nhiều tiệm cà phê đẹp ở Đà Lạt khác. Tuy nhiên không vì thế mà nơi này mất đi sức hút. Ngược lại, vẻ đẹp của quán đến từ khung cảnh thiên nhiên nguyên sơ, yên bình, dễ dàng “hớp hồn” du khách từ cái nhìn đầu tiên.Quán nằm lọt thỏm giữa không gian rừng cây, được bao trọn bởi những tán rừng xanh mướt, khu vườn nhà nhiều cỏ cây và đặc biệt là dòng suối chảy róc rách. Đến đây, bạn được tan vào không khí mát lành của thiên nhiên; được hít thở trọn vẹn khí trời và đắm chìm vào vẻ đẹp của cỏ cây, hoa lá.Ngoài không gian xanh, êm ả, quán còn là nơi để bạn trải nghiệm các món cà phê, nước ép, bánh ngọt,… đa dạng.</div>
+                <img src="img/058.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 4/18 Trúc Lâm Yên Tử, Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 8:30 - 18:00.</li>
+                </ul>
+                <h3 id="16">6. Horizon Coffee</h3>
+                <div class="hello">
+                Nằm cheo leo trên sườn đồi, Horizon Coffee sở hữu vị thế vô cùng đắc địa cùng tầm nhìn thoáng đãng ra đồi thông bạt ngàn ở phía đầu đèo Prenn. Toàn bộ không gian quán được thiết kế với ý tưởng mới mẻ và độc đáo, biến nơi đây trở thành khu vườn trên mây thật sự và nhận được nhiều sự yêu mến của mọi người, đặc biệt là các bạn trẻ. Thực đơn ở quán cafe horizon rất phong phú lắm nhé. Có nhiều loại bánh ngọt, nước uống chứa nhiều vitamin và dưỡng chất cho cơ thể. Giá một ly nước cũng từ 30k đến 50k thôi, bạn có thể gọi thêm một phần bánh ngọt để nhâm nhi cũng được nè. Bên cạnh đó quán còn có những bữa ăn sáng ngon đủ dinh dưỡng cho thực khách.Ngồi ở coffe Horizon vào buổi chiều cũng thật kì ảo. Bạn có thể ngắm nhìn được buổi chiều hoàng hôn dần buông xuống. Nhấc chiếc máy ảnh lên là có cả chục tấm hình đẹp. Buổi sáng nơi đây lại mang đến một không khí mới những làn gió nhẹ pha lẫn sương sớm. Khiến ta thêm vài phần cảm nhận như đang trên tiên cảnh. Đây là một địa điểm vô cùng thú vị vì vậy bạn đừng bỏ qua nhé!</div>
+                <img src="img/060.png" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 31/6 đường Ba tháng Tư, phường 3, thành phố Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 6:00 - 21:00.</li>
+                </ul>
+                <h2> Địa điểm ăn uống</h2>
+                <hr>
+                <h3 id="21">1. Nậm Nướng Đà Lạt</h3>
+                <div class="hello">
+                Nậm Nướng Đà Lạt là một trong những quán nướng hấp dẫn chất lượng của Đà Lạt. Thực đơn của quán nướng rất phong phú,quán nậm nướng Đà Lạt không chỉ nổi tiếng với món nậm huyền thoại mà còn có nhiều món khác. Bạn có thể gọi các loại hải sản, thịt heo, bò,…Nguyên liệu tươi ngon nên đảm bảo độ mền và dai. Cộng thêm công thức tẩm ướp đặc biệt giúp món ăn hấp dẫn hơn. Quán nướng ở đây giá hạt dẻ từ 20-89k, đồ ăn cực ngon nên là địa điểm ruột của dân địa phương Đà Lạt từ nhiều năm nay. Đến Nậm Nướng Đà Lạt bạn vừa có thể thưởng thức những món ăn đặc sản của Đà Lạt, vừa có thể thưởng thức cả những món hải sản tươi ngon. Thực khách có thể tự do lựa chọn các loại hải sản tươi sống để được chế biến tại chỗ.Với phương châm luôn đặt sức khỏe của khách hàng lên hàng đầu, tất cả những nguyên liệu chế biến của nhà hàng đều có nguồn gốc xuất xứ rõ ràng, đảm bảo độ sạch. Ngoài ra, không gian nhà hàng cũng là một điểm nhấn độc đáo với những mặt kính trong suốt, giúp bạn có thể ngắm được trọn vẹn cảnh đẹp của Đà Lạt, đồng thời cũng tạo nên nét đẹp sang trọng, tinh tế cho không gian.</div>
+                <img src="img/063.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 07 Hoàng Diệu, Phường 5, Thành phố Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 16:00 - 22:00.</li>
+                </ul>
+                <h3 id="22">2. Bánh căn Lệ</h3>
+                <div class="hello">
+                Muốn được thưởng thức một món ăn ngon và đặc trưng thật không phải dễ dàng một chút nào. Nếu như các bạn là một người không rành đường xá tại Đà Lạt chắc có lẽ sẽ bỏ cuộc giữa chừng mà thôi. Tuy nhiên nếu như đã đến được với quán thì sẽ cảm thấy cực kỳ xứng đáng, mãn nguyện luôn đấy. Đã đến được quán bánh căn được đánh giá là ngon và nổi tiếng bậc nhất tại Đà Lạt. Bánh tại đây được chế biến với rất nhiều loại nhân khác nhau như: thịt bò ban, trứng cút, trứng gà, hải sản…Tất các các loại bánh trên đều có một điểm chung là ngon cực kỳ. Giá tại đây cũng khá là bình dân từ 25.000đ – 30.000đ/phần mà thôi. Vỏ bánh mỏng và rất giòn, ăn kèm cùng với nước mắm pha hoặc mắm nêm pha tùy thích. Trong chén nước chấm các bạn có thể gọi thêm xíu mại viên ăn kèm sẽ cực kỳ ngon.Ngoài ra tại quán còn có thêm chả cây, ăn kèm với bánh, các món trắng miệng gồm có như yaour, bánh plan…. Không gian tại quán thì khá là nhỏ, được thiết kế tận dụng theo kiểu gia đình, cô chủ đỗ bánh còn chồng cô thì phục vụ. Thông thường thì các bạn phải đợi tầm 10 – 15 phút mới cỏ bánh để thưởng thức.Quán khá nhỏ nhưng bù lại thì rất sạch sẽ, cô chú chủ quán rất thận thiện và dễ mến. Thông thường các bạn vào quán cô chú sẽ hỏi trước xem là các bạn có đợi được không? Nếu có dịp đến Đà Lạt hãy ghé đến Bánh căn Lệ, đây sẽ là một địa điểm mà bạn không thể bỏ qua khi đến thành phố này.</div>
+                <img src="img/067.jpeg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 27/44 Yersin, P. 10, Thành Phố Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 6:00 - 19:00.</li>
+                </ul>
+                <h3 id="23">3. ChungKing Express - Một chiếc lẩu HongKong</h3>
+                <div class="hello">
+                “Đậm chất Hongkong của những năm thập niên 90” là điều du khách ấn tượng về Chungking Express. Từ cách bài trí ánh đèn mờ mờ ảo ảo, các bức tường, lối đi, nền gạch “chuẩn chỉnh” như những thước phim mà bạn từng coi. Chính vì vậy, đến quán ăn uống nhưng đừng quên lên đồ thật “chặt chém” để còn tha hồ gom ảnh sống ảo về khoe với bạn bè nhé! Về menu của Chungking Express thì đa dạng khỏi bàn. Nổi bật nhất phải kể đến lẩu Hongkong thơm ngon khó nơi nào bì kịp. Nước lẩu đậm đà, vị thơm hòa quyện của các nguyên liệu và gia vị rất vừa miệng. Tùy vào sở thích mà bạn có thể order nhiều loại topping khác nhau như heo, bò, hải sản, đậu hũ, rau củ,… Đợi nước lẩu sôi ùng ục, sau đó cho các loại topping vào đảo đều vừa chín tới, rồi chấm cùng nước chấm (nước chấm này tùy bạn pha nên bạn có thể mix theo sở thích, yên tâm là pha kiểu nào cũng ngon lành cành đào). Vị ngọt, thanh, béo, cay nhè nhẹ đều có đủ, tất cả quyến rũ vị giác khiến thực khách dù là khó tính nhất cũng phải tấm tắc khen. Giá cho các món ở Chungking Express khá ổn và vừa túi tiền. Nếu đi ăn cùng bạn bè thì mỗi người dắt túi khoảng 150k-200k là đảm bảo ăn no nê. Thật vậy, Đà Lạt không thiếu những địa chỉ ăn uống nổi tiếng nhưng để tìm được quán ăn “chuẩn từng centimet” theo phong cách Hongkong như Chungking Express thì “hiếm có khó tìm” lắm. Nếu có dịp đến phố núi, đừng quên ghé và trải nghiệm nhé!</div>
+                <img src="img/069.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 94 Trương Công Định, Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 14:00 - 22:00.</li>
+                </ul>
+                <h3 id="24">4. YAM- ChiangMai</h3>
+                <div class="hello">
+                Đầu tiên phải kể đến không gian. Yam - ChiangMai Đà Lạt có một khoảng sân nhỏ được thiết kế theo lối mở. Lối đi dẫn lên tầng trên, bên dưới là những chiếc bàn nhỏ cho 2 – 4 người vừa ăn vừa trò chuyện. Khu vực này dành cho những bạn thích “bình dân” để dễ dàng chill cùng bạn bè. Cảm giác vừa nhâm nhi đồ ăn Thái Lan cay nồng, thêm chút rượu hay bia giữa sương gió Đà Lạt thì đúng là “bá cháy”. Không gian nhà hàng trong nhà được xây dựng bằng gỗ, phủ một lớp sơn đen ấn tượng kết hợp với những vệt màu cam đất trầm ấm. Phía trước hiên là biển hiệu chữ Thái to đùng, ấn tượng nhất chính là bảng chữ cái tiếng Thái bên góc phải của cửa ra vào với màu sơn vàng nổi bật. Quầy order của Yam - ChiangMai in Dalat lại được đặc biệt để ở phía cửa ra vào để thực khách có thể linh hoạt giữa không gian sân vườn trước quán hay không gian trong nhà! Đến với Yam - ChiangMai in Dalat bạn sẽ được trải nghiệm một không gian nhà hàng ẩm thực Thái Lan đẳng cấp, sang trọng và thư giãn ngay tại thành phố Đà Lạt. Được thưởng thức những món ăn ngon bài trí đẹp mắt và check-in những view siêu xịn, siêu hiện đại ngay trong khuôn viên nhà hàng. Đây là một địa điểm bạn không thể bỏ qua khi tới thành phố sương mù.</div>
+                <img src="img/072.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 286 Hai Bà Trưng, P. 6,Thành phố Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 7:30 - 22:00.</li>
+                </ul>
+                <h3 id="25">5. Bếp Khói - Bò Sốt Chảo Đà Lạt</h3>
+                <div class="hello">
+                Bật mí nho nhỏ cho những ai chưa biết, bò sốt chảo chính là món "signature" của Bếp Khói - món ăn nhất định phải thử để "vỗ về" bao tử trong những ngày mưa gió. Một chảo nhiều thịt bò, nhiều topping, nhiều sốt đủ cho 4 người ăn chỉ có giá từ 169.000 đồng. Hương vị độc đáo, thấm đẫm trong từng miếng thịt dễ dàng kích thích vị giác, đảm bảo chinh phục được cả những vị khách khó tính nhất. Thịt bò được thái miếng vừa ăn, bỏ vào trong chảo gang và đặt trên bếp hồng rực. Vì thế, ngay cả khi bạn ăn gần hết cũng chẳng sợ nguội, đã bảo là phải "vừa thổi vừa ăn" mà. Tùy theo sở thích mà thực khách có thể lựa chọn những loại sốt khác nhau. Nếu thích vị chua chua thì hãy lựa chọn sốt me, yêu vị cay the thì sốt tôm đậm đà sẽ là lựa chọn lý tưởng. Ngoài ra, Bếp Khói còn có loại sốt tiêu hành thơm nức mũi. Mỗi loại sốt đều được pha chế theo công thức riêng, mang đến hương vị đặc biệt cho món ăn.Đến với Bếp Khói, thực khách không chỉ được thưởng thức những món ngon của Đà Lạt mà còn tha hồ chụp hình "sống ảo". Quán được thiết kế theo phong cách vintage dưới ánh đèn vàng ấm áp. Nếu thích ngắm nhìn khung cảnh thành phố, bạn có thể lựa chọn các bàn sát bên cửa sổ. Còn nếu đi cùng bạn bè, muốn "chill chill" thì ngồi ngoài trời thoáng mát sẽ hợp lý hơn. Hãy đên Bếp Khói khi bạn đến thành phố Đà Lạt nhé!</div>
+                <img src="img/076.jpeg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 2/20 Cư Xá Bưu Điện, Đà Lạt (hẻm bên hông Trường Nguyễn Du). Gần ngay trung tâm thành phố Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 10:00 - 14:00 và 16:00 - 22:00.</li>
+                </ul>
+                <h3 id="26">6. Tiệm cơm Hồi Nớ</h3>
+                <div class="hello">
+                Dù chỉ là những món ăn dân dã, quen thuộc đậm đà hương vị Việt Nam như cá kho tộ, canh bầu nấu tôm, thịt luộc, rau muống xào tỏi…, nhưng bầu không khí ấm cúng, thân thương của Tiệm cơm Hồi Nớ như mang bạn trở về với mâm cơm gia đình, với những hồi ức tuổi thơ. Không gian xinh xắn, mộc mạc cũng là một điểm cộng cực lớn khiến Hồi Nớ trở nên đặc biệt hơn khi bạn đến đây trải nghiệm. Giá cả cũng rất chi là “hạt dẻ” nữa, chỉ với 55.000 bạn sẽ được thưởng thức trọn vẹn một bữa-cơm-chuẩn-gia-đình-Việt với canh, 2 món rau và 2 món mặn, đảm bảo ăn no bụng nha! Thực đơn cũng được thay đổi hàng ngày để cho mới lạ.Bên cạnh phục vụ những món cơm quên dân dã có giá cả rất phải chăng. Tiệm Cơm Hồi Nớ còn là địa điểm check-in lý tưởng mà bạn không thể bỏ qua khi đến Đà Lạt. Còn gì tuyệt vời hơn khi vừa 'căng bụng' lại vừa có hình sống ảo mang về.Tiệm rất khéo léo tái hiện lại bối cảnh thời 'ông bà anh' cực chất. Từ bên ngoài, Hồi Nớ thu hút mọi người bằng bức tường có màu sắc bắt mắt. Ăn cơm xong mà không rủ rê hội bạn hoặc gia đình check-in liền tay tại bức tường xanh thì xem như bạn chưa đến Hồi Nớ.Bàn ghế và vật dụng trang trí tại tiệm là những thứ đã khoác lên mình sự cũ kỹ theo thời gian. Vì thế, trong mắt du khách, Hồi Nớ phảng phất màu sắc hoài niệm và là nơi sưởi ấm những trái tim xa quê và mang nỗi nhớ thương gia đình.</div>
+                <img src="img/080.jpg" class="img1"><p>
+                <ul>
+                    <li><strong>Địa chỉ:</strong> 3b/4 Trần Hưng Đạo, Phường 10, Thành phố Đà Lạt.</li>
+                    <li><strong>Thời gian:</strong> mở cửa 10:30 - 17:00.</li>
+                </ul>
+                </div>
+                </div>
+
+                </div>
+            </div>
+            <div class="right1">
+                <div class="logo3">
+                <a href="trangchu.html"><img src="logo3.png" alt="logo"></a>
+                </div>
+                <h1>Các địa điểm</h1>
+                <h3>Quán cafe</h3>
+                <div class="text1">
+                <ol>
+                <li><a href="#11"> Pura Vida cafe</a></li><p>
+                <li><a href="#12"> Thung Lũng Đèn Coffee</a></li><p>
+                <li><a href="#13"> Coffee Lưng Chừng</a></li><p>
+                <li><a href="#14"> Lululola Coffee</a></li><p>
+                <li><a href="#15"> Tiệm Cà Phê Nhà Bên Suối</a></li><p>
+                <li><a href="#16"> Horizon Coffee</a></li><p>
+                </ol>
+                </div>
+            
+                <h3>Địa điểm ăn uống</h3>
+                <div class="text1">
+                <ol>
+                <li><a href="#21"> Nậm Nướng Đà Lạt</a></li><p>
+                <li><a href="#22"> Bánh căn Lệ</a></li><p>
+                <li><a href="#23"> ChungKing Express - Một chiếc lẩu HongKong</a></li><p>
+                <li><a href="#24"> YAM- ChiangMai</a></li><p>
+                <li><a href="#25"> Bếp Khói - Bò Sốt Chảo Đà Lạt</a></li><p>
+                <li><a href="#26"> Tiệm cơm Hồi Nớ</a></li><p>
+                </ol>
+                </div>
+            </div>
+        </div>
+        
+        <div aria-label="Back to Top" class="scroll--top" role="button" tabindex="0"></div>
+        <script>//<![CDATA[
+
+          const scrollTop=document.querySelector('.scroll--top')
+
+          window.addEventListener('scroll',function(){
+
+            if(this.pageYOffset==0)scrollTop.classList.remove('show')
+
+            else scrollTop.classList.add('show')
+
+          })
+
+          scrollTop.addEventListener('click',function(){
+
+            window.scrollTo({top:0,behavior:'smooth'})
+
+          })
+
+        //]]></script>
+
+        <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>VỀ CHÚNG TÔI</h2>
+          <div class="content">
+             <div class="logo2">
+               <a href="trangchu.html"><img src="logo3.png" alt="logo"></a>
+             </div>
+            <p>là nhóm 3 của lớp 21110CL2 trường Đại Học Sư Phạm Thành Phố Hồ Chí Minh. Trang web này được chúng tôi tạo ra nhằm giúp các bạn có thể tìm kiếm được những địa điểm du lịch, vui chơi, ăn uống khi đên với thành phố Đà Lạt-thành phố được mệnh danh là "Thành phố ngàn hoa". Hi vọng những thông tin này sẽ hữu ích đến bạn !</p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></i></a>
+              <a href="#"><span class="fab fa-twitter"></span></i></a>
+              <a href="#"><span class="fab fa-instagram"></span></i></a>
+              <a href="#"><span class="fab fa-youtube"></span></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="center box">
+         <h2>ĐỊA CHỈ</h2>
+          <div class="content">
+            <div class="place">
+              <a href="https://www.google.com/maps/place/Tp.+Đà+Lạt,+Lâm+Đồng,+Việt+Nam/@11.9040702,108.3806816,12z/data=!3m1!4b1!4m5!3m4!1s0x317112fef20988b1:0xad5f228b672bf930!8m2!3d11.9404192!4d108.4583132?hl=vi-VN" target="_blank"><span class="fas fa-map-marker-alt"> </span></a>
+              <span class="text">Thành Phố Đà Lạt</span>
+            </div>
+            <div class="phone" onclick="alert('Mãi iu các bạn')">
+              <span class="fas fa-phone-alt"> </span>
+              <span class="text">+12345678910</span>
+            </div>
+            <div class="email">
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><span class="fas fa-envelope"> </span></a>
+              <span class="text">AVENGERSgroup3@gmail.com</span>
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="right box">
+          <h2>LIÊN HỆ</h2>
+          <div class="content">
+            <form action="https://formspree.io/f/xzbozbvz" method="POST" target="_blank">
+              <div class="name">
+                <div class="text">Họ và Tên:*</div>
+                <input type="text" name="FullName" placeholder="Nguyễn Minh">
+              </div>
+              <div class="email">
+                <div class="text2">Email/Gmail:*</div>
+                <input type="email" name="email" placeholder="abc@gmail.com">
+              </div>
+              <div class="msg">
+                <div class="text2">Phản hồi:*</div>
+                <textarea name="message"></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Gửi</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </footer>
+    </body>
+</html>
